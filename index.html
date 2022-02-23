@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+      <title>My Real Estate Webpage</title>
+  </head>
+  
+      
+  <body>
+
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Real Estate</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="images/Untitled.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop</h2> 
+      <h3>Exploring The Properties!</h3>
+      <p>Real estate is the land along with any permanent improvements attached to the land, whether natural or man-made—including water, trees, minerals, buildings, homes, fences, and bridges. Real estate is a form of real property. It differs from personal property, which are things not permanently attached to the land, such as vehicles, boats, jewelry, furniture, and farm equipment.</p>
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Buy</a></li>
+      <li><a href="#">Sell</a></li>
+      <li><a href="#">Rent</a></li>
+      <li><a href="#">PG/Co-living</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToogle = document.querySelector('.toggle');
+    const showCase = document.querySelector('.showcase');
+    
+    menuToogle.addEventListener('click', ()=> {
+          
+     menuToogle.classList.toggle('active')
+     showCase.classList.toggle('active')
+    });
+    </script>
+  </body>
+  </html>
